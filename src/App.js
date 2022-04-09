@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UseEffectHook from './hooks/UseEffectHook';
+import UseMemoHook from './hooks/UseMemoHook';
 import UseRefHook from './hooks/UseRefHook';
 import UseStateHook from './hooks/UseStateHook';
 
@@ -10,7 +11,8 @@ function App() {
       <h1>Hello</h1>
       {/* <UseStateHook /> */}
       {/* <UseEffectHook /> */}
-      <UseRefHook />
+      {/* <UseRefHook /> */}
+      <UseMemoHook />
     </div>
   );
 }

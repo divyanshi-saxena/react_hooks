@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UseEffectHook from './hooks/UseEffectHook';
+import UseRefHook from './hooks/UseRefHook';
 import UseStateHook from './hooks/UseStateHook';
 
 function App() {
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
       <h1>Hello</h1>
       {/* <UseStateHook /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+      <UseRefHook />
     </div>
   );
 }

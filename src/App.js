@@ -4,6 +4,7 @@ import UseCallbackHook from './hooks/UseCallbackHook';
 import UseContextHook from './hooks/UseContextHook';
 import UseEffectHook from './hooks/UseEffectHook';
 import UseMemoHook from './hooks/UseMemoHook';
+import UseReducerHook from './hooks/UseReducerHook';
 import UseRefHook from './hooks/UseRefHook';
 import UseStateHook from './hooks/UseStateHook';
 
@@ -16,7 +17,8 @@ function App() {
       {/* <UseRefHook /> */}
       {/* <UseMemoHook /> */}
       {/* <UseCallbackHook /> */}
-      <UseContextHook />
+      {/* <UseContextHook /> */}
+      <UseReducerHook />
     </div>
   );
 }

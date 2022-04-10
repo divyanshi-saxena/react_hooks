@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 import UseCallbackHook from './hooks/UseCallbackHook';
+import UseContextHook from './hooks/UseContextHook';
 import UseEffectHook from './hooks/UseEffectHook';
 import UseMemoHook from './hooks/UseMemoHook';
 import UseRefHook from './hooks/UseRefHook';
@@ -14,7 +15,8 @@ function App() {
       {/* <UseEffectHook /> */}
       {/* <UseRefHook /> */}
       {/* <UseMemoHook /> */}
-      <UseCallbackHook />
+      {/* <UseCallbackHook /> */}
+      <UseContextHook />
     </div>
   );
 }
